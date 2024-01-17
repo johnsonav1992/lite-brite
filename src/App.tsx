@@ -12,7 +12,7 @@ function App () {
 
     return (
         <>
-            <div {...styleX.props(styles.test)}>
+            <div {...styleX.props(styles.test)} >
                 Hello
             </div>
         </>
