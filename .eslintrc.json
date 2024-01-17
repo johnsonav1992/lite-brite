@@ -1,7 +1,11 @@
 {
   "extends": "./node_modules/johnsonav-eslint-config",
+  "plugins": ["@stylexjs"],
   "globals": {
     "globalThis": false
     , "JSX":"readonly"
+  },
+  "rules": {
+    "@stylexjs/valid-styles": ["error"]
   }
 }
