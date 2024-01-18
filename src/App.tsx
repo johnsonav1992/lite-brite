@@ -1,18 +1,18 @@
-import { stylex } from '@stylexjs/stylex';
+import * as styleX from '@stylexjs/stylex'
 
-const styles = stylex.create( {
-    container: {
-        width: '100%'
-        , height: '100vh'
-        , backgroundColor: 'blue'
+const styles = styleX.create({
+    test: {
+        width: '20px'
+        , height: '20px'
+        , backgroundColor: 'red'
     }
-} );
+})
 
 function App () {
 
     return (
         <>
-            <div { ...stylex.props( styles.container ) }>
+            <div {...styleX.props(styles.test)} >
                 Hello
             </div>
         </>
