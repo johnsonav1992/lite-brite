@@ -10,3 +10,7 @@ export const pegColors = stylex.defineVars( {
     , pink: '#f8519b'
     , violet: '#715dc4'
 } );
+
+export const backgroundColors = stylex.defineVars( {
+    default: 'darkGray'
+} );
