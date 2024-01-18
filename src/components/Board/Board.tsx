@@ -5,8 +5,10 @@ import { backgroundColors } from '../../styles/globalStyles.stylex';
 const styles = stylex.create( {
     background: {
         backgroundColor: backgroundColors.black
-        , width: '800px'
+        , width: '700px'
         , height: '500px'
+        , border: `10px solid ${ backgroundColors.white }`
+        , borderRadius: '.25rem'
     }
 } );
 

@@ -13,5 +13,6 @@ export const pegColors = stylex.defineVars( {
 
 export const backgroundColors = stylex.defineVars( {
     gray: 'darkGray'
-    , black: 'black'
+    , black: '#000000'
+    , white: '#FFFFFF'
 } );
