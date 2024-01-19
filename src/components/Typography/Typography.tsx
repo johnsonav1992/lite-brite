@@ -9,7 +9,6 @@ type Props<T extends ComponentOptions> = ComponentProps<T> & {
 const Typography = <T extends ComponentOptions>( {
     component
     , children
-    , style
     , ...props
 }: Props<T> ) => {
     return React.createElement( component, props, children );

@@ -1,6 +1,7 @@
 // Styles
 import * as stylex from '@stylexjs/stylex';
 import { backgroundColors } from '../../styles/globalStyles.stylex';
+import PegHole from '../PegHole/PegHole';
 
 const styles = stylex.create( {
     background: {
@@ -14,7 +15,9 @@ const styles = stylex.create( {
 
 const Board = () => {
     return (
-        <div { ...stylex.props( styles.background ) } />
+        <div { ...stylex.props( styles.background ) }>
+            <PegHole />
+        </div>
     );
 };
 

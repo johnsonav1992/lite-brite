@@ -12,7 +12,7 @@ const styles = stylex.create( {
         , flexDirection: 'column'
         , justifyContent: 'center'
         , alignItems: 'center'
-        , backgroundColor: backgroundColors.gray
+        , backgroundColor: backgroundColors.darkGray
     }
 } );
 
