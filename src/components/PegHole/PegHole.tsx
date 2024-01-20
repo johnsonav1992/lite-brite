@@ -7,8 +7,8 @@ const styles = stylex.create( {
         , borderColor: backgroundColors.gray
         , borderStyle: 'solid'
         , borderWidth: '1px'
-        , height: '30px'
-        , aspectRatio: 1
+        , width: '1vw'
+        , height: '1vw'
     }
 } );
 

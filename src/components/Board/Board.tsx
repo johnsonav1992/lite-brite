@@ -6,17 +6,27 @@ import PegHole from '../PegHole/PegHole';
 const styles = stylex.create( {
     background: {
         backgroundColor: backgroundColors.black
-        , width: '700px'
-        , height: '500px'
+        , width: '50vw'
+        , aspectRatio: '1.5/1'
         , border: `10px solid ${ backgroundColors.white }`
         , borderRadius: '.25rem'
+        , display: 'flex'
+        , flexWrap: 'wrap'
+        , gap: '.25rem'
+        , padding: '.5rem'
     }
 } );
+
+const pegs = Array( 200 ).fill( null );
 
 const Board = () => {
     return (
         <div { ...stylex.props( styles.background ) }>
-            <PegHole />
+            {
+                pegs.map( peg => {
+                    return <PegHole key={ peg } />;
+                } )
+            }
         </div>
     );
 };
