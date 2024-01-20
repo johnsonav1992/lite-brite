@@ -12,8 +12,10 @@ const styles = stylex.create( {
         , borderRadius: '.25rem'
         , display: 'flex'
         , flexWrap: 'wrap'
+        , justifyContent: 'center'
+        , alignItems: 'center'
         , gap: '.25rem'
-        , padding: '.5rem'
+        , padding: '2px'
     }
 } );
 
